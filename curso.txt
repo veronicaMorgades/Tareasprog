@@ -1,0 +1,35 @@
+package logica;
+import java.util.ArrayList;
+class curso extends usuario{
+	private ArrayList<estudiante> estudiante;
+	private String nombre;
+	
+	public curso(String nombre,  ArrayList<logica.estudiante> estudiante, String nombre2) {
+		super (nombre);
+		this.estudiante = estudiante;
+		nombre = nombre2;
+		
+	}
+
+	public ArrayList<estudiante> getEstudiante() {
+		return estudiante;
+	}
+
+	public void setEstudiante(ArrayList<estudiante> estudiante) {
+		this.estudiante = estudiante;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	
+	
+	
+	
+	
+}

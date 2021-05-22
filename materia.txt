@@ -1,0 +1,27 @@
+package logica;
+
+public class materia {
+	private  String nombre;
+	private docente docente;
+	public materia(String nombre, logica.docente docente) {
+		super();
+		this.nombre = nombre;
+		this.docente = docente;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public docente getDocente() {
+		return docente;
+	}
+	public void setDocente(docente docente) {
+		this.docente = docente;
+	}
+	
+	
+	
+
+}
